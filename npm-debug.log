@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.17
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /Users/florianmorel/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz
+12 verbose folder ./
+13 silly lockFile 04cb2bca-tar tar://./
+14 verbose lock tar://./ /Users/florianmorel/.npm/04cb2bca-tar.lock
+15 silly lockFile 2230e7cc-9484-0-32144902972504497-tmp-tgz tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz
+16 verbose lock tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz /Users/florianmorel/.npm/2230e7cc-9484-0-32144902972504497-tmp-tgz.lock
+17 silly lockFile 04cb2bca-tar tar://./
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 2230e7cc-9484-0-32144902972504497-tmp-tgz tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz
+20 silly lockFile 2230e7cc-9484-0-32144902972504497-tmp-tgz tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz
+21 verbose tar unpack /var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz
+22 silly lockFile 86f96d5c-9484-0-32144902972504497-package tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package
+23 verbose lock tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package /Users/florianmorel/.npm/86f96d5c-9484-0-32144902972504497-package.lock
+24 silly lockFile 2230e7cc-9484-0-32144902972504497-tmp-tgz tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz
+25 verbose lock tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz /Users/florianmorel/.npm/2230e7cc-9484-0-32144902972504497-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry LICENSE
+30 silly gunzTarPerm extractEntry index.js
+31 silly lockFile 86f96d5c-9484-0-32144902972504497-package tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package
+32 silly lockFile 86f96d5c-9484-0-32144902972504497-package tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package
+33 silly lockFile 2230e7cc-9484-0-32144902972504497-tmp-tgz tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz
+34 silly lockFile 2230e7cc-9484-0-32144902972504497-tmp-tgz tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/tmp.tgz
+35 verbose tar pack [ '/Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz',
+35 verbose tar pack   '/var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package' ]
+36 verbose tarball /Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz
+37 verbose folder /var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package
+38 silly lockFile 86f96d5c-9484-0-32144902972504497-package tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package
+39 verbose lock tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package /Users/florianmorel/.npm/86f96d5c-9484-0-32144902972504497-package.lock
+40 silly lockFile 4a774f9f-all-standalone-1-0-0-package-tgz tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz
+41 verbose lock tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz /Users/florianmorel/.npm/4a774f9f-all-standalone-1-0-0-package-tgz.lock
+42 silly lockFile 86f96d5c-9484-0-32144902972504497-package tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package
+43 silly lockFile 86f96d5c-9484-0-32144902972504497-package tar:///var/folders/rl/spkx2h0s7fn8d0clb85dv9dm0000gn/T/npm-1772-TroQoX6G/1399724159484-0.32144902972504497/package
+44 silly lockFile 4a774f9f-all-standalone-1-0-0-package-tgz tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz
+45 silly lockFile 4a774f9f-all-standalone-1-0-0-package-tgz tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz
+46 silly lockFile c919c707-bindall-standalone-1-0-0-package /Users/florianmorel/.npm/bindall-standalone/1.0.0/package
+47 verbose lock /Users/florianmorel/.npm/bindall-standalone/1.0.0/package /Users/florianmorel/.npm/c919c707-bindall-standalone-1-0-0-package.lock
+48 silly lockFile c919c707-bindall-standalone-1-0-0-package /Users/florianmorel/.npm/bindall-standalone/1.0.0/package
+49 silly lockFile c919c707-bindall-standalone-1-0-0-package /Users/florianmorel/.npm/bindall-standalone/1.0.0/package
+50 verbose tar unpack /Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz
+51 silly lockFile 2b32d4b2-bindall-standalone-1-0-0-package tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package
+52 verbose lock tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package /Users/florianmorel/.npm/2b32d4b2-bindall-standalone-1-0-0-package.lock
+53 silly lockFile 4a774f9f-all-standalone-1-0-0-package-tgz tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz
+54 verbose lock tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz /Users/florianmorel/.npm/4a774f9f-all-standalone-1-0-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry LICENSE
+59 silly gunzTarPerm extractEntry index.js
+60 silly lockFile 2b32d4b2-bindall-standalone-1-0-0-package tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package
+61 silly lockFile 2b32d4b2-bindall-standalone-1-0-0-package tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package
+62 silly lockFile 4a774f9f-all-standalone-1-0-0-package-tgz tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz
+63 silly lockFile 4a774f9f-all-standalone-1-0-0-package-tgz tar:///Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz
+64 verbose chmod /Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz 644
+65 verbose chown /Users/florianmorel/.npm/bindall-standalone/1.0.0/package.tgz [ 501, 20 ]
+66 silly lockFile 0ee6c175- ./
+67 silly lockFile 0ee6c175- ./
+68 silly publish { name: 'bindall-standalone',
+68 silly publish   version: '1.0.0',
+68 silly publish   description: 'Standalone version of underscore\'s `_.bindAll()` function for IE9+ browsers.',
+68 silly publish   main: 'index.js',
+68 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+68 silly publish   repository:
+68 silly publish    { type: 'git',
+68 silly publish      url: 'https://github.com/ayamflow/bindall-standalone.git' },
+68 silly publish   keywords: [ 'bind', 'bindAll' ],
+68 silly publish   author: { name: 'Florian Morel' },
+68 silly publish   license: 'MIT',
+68 silly publish   bugs: { url: 'https://github.com/ayamflow/bindall-standalone/issues' },
+68 silly publish   readme: 'bindall-standalone\n==================\n\nStandalone version of underscore\'s `_.bindAll()` function for IE9+ browsers.\n\nTaken from the [underscore source](http://underscorejs.org/docs/underscore.html) and adapted to work without underscore.\nWorks with require() e.g. for node.js, browserify or component(1).\n\n## API\n```\nbindAll(object, \'func1\', \'func2\', ...)\n```\n\nMutates all functions from `object`, passed as strings (such as `func1` and `func2`) so they always will be called with the countext bound to the `object`.\n\n## Usage\n\n```\nvar object = {\n    foo: 10,\n    bar: function() {\n        return this.foo;\n    }\n};\n\nobject.bar(); // 10\n\nvar func = object.bar;\nfunc(); // undefined\n\nbindAll(object, \'bar\');\nvar func = object.bar;\nfunc(); // 10\n```',
+68 silly publish   readmeFilename: 'README.md',
+68 silly publish   _id: 'bindall-standalone@1.0.0',
+68 silly publish   dist: { shasum: '96014b4115e56298e168fe0f5318bbeb8257b0e2' },
+68 silly publish   _from: './' }
+69 verbose url raw bindall-standalone
+70 verbose url resolving [ 'https://registry.npmjs.org/', './bindall-standalone' ]
+71 verbose url resolved https://registry.npmjs.org/bindall-standalone
+72 info trying registry request attempt 1 at 14:15:59
+73 http PUT https://registry.npmjs.org/bindall-standalone
+74 http 201 https://registry.npmjs.org/bindall-standalone
+75 verbose url raw bindall-standalone
+76 verbose url resolving [ 'https://registry.npmjs.org/', './bindall-standalone' ]
+77 verbose url resolved https://registry.npmjs.org/bindall-standalone
+78 info trying registry request attempt 1 at 14:16:00
+79 http GET https://registry.npmjs.org/bindall-standalone
+80 http 200 https://registry.npmjs.org/bindall-standalone
+81 error publish fail Cannot publish over existing version.
+81 error publish fail Update the 'version' field in package.json and try again.
+81 error publish fail
+81 error publish fail If the previous version was published in error, see:
+81 error publish fail     npm help unpublish
+81 error publish fail
+81 error publish fail To automatically increment version numbers, see:
+81 error publish fail     npm help version
+82 error System Darwin 12.5.0
+83 error command "node" "/usr/local/bin/npm" "publish" "./"
+84 error cwd /Users/florianmorel/Travail/Github/bindall-standalone
+85 error node -v v0.10.17
+86 error npm -v 1.3.8
+87 error code EPUBLISHCONFLICT
+88 verbose exit [ 1, true ]
