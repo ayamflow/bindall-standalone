@@ -6,12 +6,12 @@ Standalone version of underscore's `_.bindAll()` function for IE9+ browsers.
 Taken from the [underscore source](http://underscorejs.org/docs/underscore.html) and adapted to work without underscore.
 Works with require() e.g. for node.js, browserify or component(1).
 
-## Api
+## API
 ```
 bindAll(object, 'func1', 'func2', ...)
 ```
 
-Mutates all functions from `object`, passed as strings (such as `func1` and `func2') so they always will be called with the countext bound to the `object`.
+Mutates all functions from `object`, passed as strings (such as `func1` and `func2`) so they always will be called with the countext bound to the `object`.
 
 ## Usage
 
