@@ -1,0 +1,22 @@
+{
+  "name": "bindall-standalone",
+  "version": "1.0.0",
+  "description": "Standalone version of underscore's `_.bindAll()` function for IE9+ browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayamflow/bindall-standalone.git"
+  },
+  "keywords": [
+    "bind",
+    "bindAll"
+  ],
+  "author": "Florian Morel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayamflow/bindall-standalone/issues"
+  }
+}
