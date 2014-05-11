@@ -5,9 +5,10 @@ module.exports = function(object) {
 
     if (functions.length === 0) {
         var toString = Object.prototype.toString;
+        var hasOwnProperty = Object.prototype.hasOwnProperty;
 
         for (var method in object) {
-            if(object.hasOwnProperty(method)) {
+            if(hasOwnProperty.call(object, method)) {
                 if(typeof object[method] == 'function' && toString.call(object[method]) == "[object Function]") {
                     functions.push(method);
                 }
