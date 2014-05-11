@@ -4,18 +4,24 @@ bindall-standalone
 Standalone version of underscore's `_.bindAll()` function for IE9+ browsers.
 
 Taken from the [underscore source](http://underscorejs.org/docs/underscore.html) and adapted to work without underscore.
-Works with require() e.g. for node.js, browserify or component(1).
+Works with require() e.g. node.js, browserify or component(1).
+
+## Installation
+`npm install bindall-standalone --save`
 
 ## API
-```
-bindAll(object, 'func1', 'func2', ...)
-```
+### `bindAll(object, *methods);`
 
-Mutates all functions from `object`, passed as strings (such as `func1` and `func2`) so they always will be called with the countext bound to the `object`.
+Mutates all methods from `object`, passed as a list of strings (such as `'foo', 'bar'`) so they always will be called with the context bound to the `object`.
+
+### `bindAll(object);`
+Bind **ALL** methods available on the object.
 
 ## Usage
 
 ```
+var bindAll = require('bindall-standalone');
+
 var object = {
     foo: 10,
     bar: function() {
