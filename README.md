@@ -6,6 +6,14 @@ Standalone version of underscore's `_.bindAll()` function for IE9+ browsers.
 Taken from the [underscore source](http://underscorejs.org/docs/underscore.html) and adapted to work without underscore.
 Works with require() e.g. node.js, browserify or component(1).
 
+Useful for avoiding the addEventListener/on memory leak when binding a function.
+
+```
+mediator.on('foo', this.bar.bind(this));
+mediator.off('foo', this.bar.bind(this));
+// will never be unbinded because this.bar.bind(this) != this.bar.bind(this)
+```
+
 ## Installation
 `npm install bindall-standalone --save`
 
