@@ -1,6 +1,6 @@
 {
   "name": "bindall-standalone",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Standalone version of underscore's `_.bindAll()` function for IE9+ browsers.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,10 @@
   },
   "keywords": [
     "bind",
-    "bindAll"
+    "bindAll",
+    "context",
+    "call",
+    "apply"
   ],
   "author": "Florian Morel",
   "license": "MIT",

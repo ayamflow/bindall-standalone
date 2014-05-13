@@ -1,6 +1,21 @@
 var test = require('tape');
 var bindAll = require('../index.js');
 
+test('bindAll with no argument', function (assert) {
+    assert.plan(1);
+
+    var randomFloat = {
+        value: Math.random() * 100,
+        getValue: function() {
+            return this.value;
+        }
+    };
+
+    bindAll();
+
+    assert.pass('bindAll should not throw an error when called without parameter.');
+});
+
 test('bindAll with one argument', function (assert) {
     assert.plan(2);
 
