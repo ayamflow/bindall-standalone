@@ -1,7 +1,7 @@
 {
   "name": "bindall-standalone",
-  "version": "1.0.4",
-  "description": "Standalone version of underscore's `_.bindAll()` function for IE9+ browsers.",
+  "version": "1.0.5",
+  "description": "Standalone, improved version of underscore's `_.bindAll()` function for IE9+ browsers.",
   "main": "index.js",
   "scripts": {
     "test": "node test/bindall.js | tap-spec"

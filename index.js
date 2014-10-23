@@ -1,13 +1,14 @@
 'use strict';
 
+var toString = Object.prototype.toString,
+    hasOwnProperty = Object.prototype.hasOwnProperty;
+
 module.exports = function(object) {
     if(!object) return console.warn('bindAll requires at least one argument.');
 
     var functions = Array.prototype.slice.call(arguments, 1);
 
     if (functions.length === 0) {
-        var toString = Object.prototype.toString;
-        var hasOwnProperty = Object.prototype.hasOwnProperty;
 
         for (var method in object) {
             if(hasOwnProperty.call(object, method)) {
